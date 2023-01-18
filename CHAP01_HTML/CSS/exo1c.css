@@ -1,0 +1,23 @@
+div {
+    text-align: center;
+}
+
+th {
+    color: green;
+    size: 15px;
+}
+
+td {
+    color: blue;
+}
+
+p { 
+    color: red;
+    text-align: left;
+}
+
+td.SIOGreen {
+    color:green;
+    size: 15px;
+}
+

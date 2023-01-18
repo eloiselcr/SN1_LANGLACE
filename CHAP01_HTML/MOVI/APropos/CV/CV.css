@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap');
+
+
+html{
+    width: 1415px;
+    height: 2000px;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background: url(arriere_plan.png) no-repeat; 
+    background-size: cover;
+    background-color: black;
+    width: 1415px;
+    height: 2000px;
+}
+
+.bandeau {
+    width: 1415px;
+    height: 150px;
+}
+
+/*=================================================================
+  Nom section
+==================================================================*/
+
+.Nom {
+    width: 1415px;
+    height: 550px;
+    font-family: 'Oleo Script', cursive;
+}
+
+p.center_nom {
+    top : 100px;
+    left: 100px;
+    margin: 20px 50px 10px;
+    position: relative;
+    font-size: 120px;
+}
+
+img {
+    width: 620px;
+    height: 620px;
+    top : 165px;
+    left: 732px;
+    position: absolute;
+}
+
+/*=================================================================
+  Scolarite section
+==================================================================*/
+
+.Scolarite {
+    top: 700px;
+    width: 700px;
+    height: 500px;
+    position: absolute;
+}
+
+#Scolarite_Titre {
+    left: 32px;
+    font-family: 'Oleo Script', cursive;
+    font-size: 50px;
+    position: relative;
+}
+
+.Scolarite_Nom {
+    font-family: 'Noto Sans', sans-serif;
+    left: 32px;
+    position: relative;
+}
+
+.Scolarite_Texte {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    left: 50px;
+    position: relative;
+}
+
+/*=================================================================
+  Experience section
+==================================================================*/
+
+.Experience {
+    top: 1300px;
+    width: 700px;
+    height: 500px;
+    position: absolute;
+}
+
+#Experience_Titre {
+    left: 32px;
+    font-family: 'Oleo Script', cursive;
+    font-size: 50px;
+    position: relative;
+}
+
+.Experience_Nom {
+    font-family: 'Noto Sans', sans-serif;
+    left: 32px;
+    position: relative;
+}
+
+#Experience_Lieu {
+    font-family: 'Noto Sans', sans-serif;
+    left: 40px;
+    position: relative;
+}
+
+.Experience_Texte {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    left: 50px;
+    position: relative;
+}
+
+/*=================================================================
+  Interets section
+==================================================================*/
+
+.Interets {
+    top: 830px;
+    width: 700px;
+    height: 280px;
+    left: 750px;
+    position: absolute;
+}
+
+#Interets_Titre {
+    left: 32px;
+    font-family: 'Oleo Script', cursive;
+    font-size: 50px;
+    position: relative;
+}
+
+#Interets_Texte {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    left: 50px;
+    position: relative;
+}
+
+/*=================================================================
+  Competences section
+==================================================================*/
+
+.Competences {
+    top: 1080px;
+    width: 700px;
+    height: 300px;
+    left: 750px;
+    position: absolute;
+}
+
+#Competences_Titre {
+    left: 32px;
+    font-family: 'Oleo Script', cursive;
+    font-size: 50px;
+    position: relative;
+}
+
+#Competences_Texte {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    left: 50px;
+    position: relative;
+}
+
+/*=================================================================
+  Langues section
+==================================================================*/
+
+.Langues {
+    top: 1355px;
+    width: 700px;
+    height: 300px;
+    left: 750px;
+    position: absolute;
+}
+
+#Langues_Titre {
+    left: 32px;
+    font-family: 'Oleo Script', cursive;
+    font-size: 50px;
+    position: relative;
+}
+
+#Langues_Texte {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    left: 50px;
+    position: relative;
+}
+
+/*=================================================================
+  Contact section
+==================================================================*/
+
+.Contact {
+    top: 1700px;
+    left: 80px;
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+}
+
+#Contact_Titre {
+    top: 20px;
+    left: 35px;
+    font-family: 'Oleo Script', cursive;
+    font-size: 50px;
+    position: relative;
+}
+
+#Contact_Mail {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    top: 100px;
+    left: 400px;
+    position: absolute;
+}
+
+#mail {
+    height: 50px;
+    width: 55px;
+    top: 105px;
+    left: 330px;
+    position: absolute;
+}
+
+#Contact_Tel {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    top: 200px;
+    left: 280px;
+    position: absolute;
+}
+
+#tel {
+    height: 50px;
+    width: 55px;
+    top: 205px;
+    left: 210px;
+    position: absolute;
+}
+
+#Contact_Localisation {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    top: 195px;
+    left: 730px;
+    position: absolute;
+}
+
+#localisation {
+    height: 45px;
+    width: 40px;
+    top: 200px;
+    left: 675px;
+    position: absolute;
+}
+
+
+
+
+
+
+

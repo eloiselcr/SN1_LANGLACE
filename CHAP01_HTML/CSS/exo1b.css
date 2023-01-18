@@ -1,0 +1,9 @@
+p.rouge {
+	font-size: 30px;
+	color : rgb(255, 0, 0);
+}
+
+p.bleu {
+	font-size: 20px;
+	color : rgb(0,0,255);
+}

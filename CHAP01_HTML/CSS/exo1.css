@@ -1,0 +1,33 @@
+*{
+	margin: 0px;
+	padding : 0px;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+h1.texte {
+	text-align: center;
+	font-size: 32px;
+}
+
+div#head {
+	padding: 10px;
+	height:40px;
+	text-align: center;
+	background-color:#00CCFF;
+	}
+
+div#body {
+	background-color:#FFCC00;
+	padding: 150px;
+	height:40px;
+	}
+
+div#footer {
+	padding:10px;
+	height:40px;
+	text-align: center;
+	background-color:#33FF99;
+	}
