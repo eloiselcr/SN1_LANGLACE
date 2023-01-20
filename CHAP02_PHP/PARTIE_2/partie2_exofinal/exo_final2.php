@@ -47,13 +47,13 @@ function afficher_formulaire()
     echo '</form>';
 }
 
-if(!empty($_POST)) // Si l'utilisateur a rempli le champ
+if(!empty($_POST)) // Si l'utilisateur a ecrit quelque chose
 {
-    if(!empty($_POST['password'])) // 
+    if(!empty($_POST['password'])) // Si l'utilisateur a rempli le champ password
     {
-        if (connexion($_POST['password'])) //
+        if (connexion($_POST['password'])) // Si fonction connexion = TRUE via password
         {
-            $_SESSION['trueconnect'] = true;
+            $_SESSION['trueconnect'] = true; // La SESSION est activée
             echo '<p>Bienvenue !</p>';
         }
     } 
@@ -65,7 +65,8 @@ if(!empty($_POST)) // Si l'utilisateur a rempli le champ
 
 if (isset($_SESSION['trueconnect']) && $_SESSION['trueconnect'] == true) // SI L'UTILISATEUR EST CONNECTE
 {
-    echo "Vous êtes connecté !"; // !!!! RAJOUTER LE HREF!!!
+    echo "Vous êtes connecté ! <br><br>"; // !!!! RAJOUTER LE HREF!!!
+    echo "<a href = 'https://youtu.be/dQw4w9WgXcQ'>Lien secret ;) <br><br></a>";
 
 
     echo '<form action="exo_final2.php" method="post">';
