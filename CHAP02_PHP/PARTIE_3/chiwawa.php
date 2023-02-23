@@ -1,8 +1,8 @@
 <?php
-include 'pt3_exo1/exo1_creationclasse.php';
-include 'exo2.php';
-include 'exo3.php';
-include 'exo4.php';
+include 'pt3_exo1/exo1_creaclasse.php';
+include 'pt3_exo2/exo2_creaconstructeur.php';
+include 'pt3_exo3/exo3_creaconstructeurpara.php';
+include 'pt3_exo4/exo4_interactionobjets.php';
 ?>
 
 <!DOCTYPE html>
