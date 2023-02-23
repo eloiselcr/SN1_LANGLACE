@@ -33,7 +33,7 @@ class Personnage3 {
         }
 
     public function affichagepseudovie(){ // Méthode qui affiche le nom et les points de vie du personnage
-        echo "Le personnage a pour pseudo " . $this->speudo . " et possède " . $this->vie . " points de vie.";
+        echo "Le personnage a pour speudo " . $this->speudo . " et possède " . $this->vie . " points de vie.";
     }
 }
 
