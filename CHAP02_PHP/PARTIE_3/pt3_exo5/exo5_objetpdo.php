@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exo5 PHP</title>
+    <title>Exo 5 - Objet PDO select</title>
     <!-- 
+        ----------- EXO 5  - INTERACTION ENTRE OBJETS -----------
+
         1) Créer en BDD une table personnage avec les propriétés de la classe personnage.
            (Pensez toujours à rajouter un champ id)
 
@@ -21,7 +23,7 @@
            la requête BDD.
 
         6) Instancier un Personnage et afficher ses informations. Exemple : $P1 = new
-           Personnage(12) ; $P1->AfficherPersonnage();
+           Personnage(12)  $P1->AfficherPersonnage();
     -->
 </head>
 <body>
