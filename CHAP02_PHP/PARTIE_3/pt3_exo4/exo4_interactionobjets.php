@@ -45,12 +45,12 @@ class Personnage4 {
         echo $this->pseudo . " possède " . $this->vie . " points de vie.";
     }
 
-    public function attaquer($victime){
+    public function attaquer($victime){ // Méthode attaquer qui set la valeur de damage prit par la victime
         echo "</br> Attention ! " . $this->pseudo . " attaque " . $victime->pseudo ." ! <br>";
         $victime->defense(50);
     }
 
-    public function defense($attaque){
+    public function defense($attaque){ // Méthode défense qui inflige les dégâts de la méthode attaquer à la victime
         echo $this->pseudo . " se prend " . $attaque . " points de dégât.<br>";
         $this->vie = $this->vie - $attaque;
     }
