@@ -23,12 +23,13 @@ include 'pt3_exo4/exo4_interactionobjets.php';
 
 $user = new User(); // Exercice 1
 echo $user->afficheUser();
+echo $user->affichertableau();
 
 ?>
 </br>
 <?php
 
-$perso = new Personnage2(); // Exercice 2
+$perso = new Personnage2("Sephiroth"); // Exercice 2
 echo $perso->vie;
 
 ?>
