@@ -3,6 +3,16 @@ include 'pt3_exo1/exo1_creaclasse.php';
 include 'pt3_exo2/exo2_creaconstructeur.php';
 include 'pt3_exo3/exo3_creaconstructeurpara.php';
 include 'pt3_exo4/exo4_interactionobjets.php';
+
+$ipserver = "192.168.64.86";
+$nomBase = "ExoPHPperso";
+$loginPrivilege = "root";
+$passPrivilege = "root";
+$requete_perso = $my_db->query("SELECT nom, vie FROM `Personnages` WHERE id=".$id.";");
+$t_perso = $requete_perso->fetch();
+$this->pseudo = $t_perso['nom']; 
+$this->vie = $t_perso['vie'];
+
 ?>
 
 <!DOCTYPE html>
@@ -20,6 +30,7 @@ include 'pt3_exo4/exo4_interactionobjets.php';
 <pre>
 
 <?php
+
 
 $user = new User(); // Exercice 1
 echo $user->afficheUser();

@@ -25,6 +25,8 @@ try {
     $resultat = $GLOBALS["pdo"]->query($requete);
     $tabMedecins = $resultat->fetchALL();
     ?>
+
+
     <form action="" method="post">
     <h2> Sélectionnez votre médecin : </h2>
     <select name="idMedecin">
@@ -39,6 +41,10 @@ try {
     </select>
     </form>
 
+    <form action = "exo5_post.php" method="post">
+    Texte... <input type ="text" name="champ1">
+    <input type="submit" name="zioummmm">
+    </form>
     <br>
 
     <?php
@@ -63,7 +69,7 @@ try {
 
 <?php
 }
-catch (Execption $error)
+catch (Exception $error)
 {
     echo "error est : ".$error->getMessage();
 }

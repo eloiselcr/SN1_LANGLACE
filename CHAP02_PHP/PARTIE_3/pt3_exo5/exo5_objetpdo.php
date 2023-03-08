@@ -30,14 +30,7 @@
     
 <?php
 
-    $ipserver = "192.168.64.86";
-    $nomBase = "ExoPHPperso";
-    $loginPrivilege = "root";
-    $passPrivilege = "root";
-    $requete_perso = $my_db->query("SELECT nom, vie FROM `Personnages` WHERE id=".$id.";");
-    $t_perso = $requete_perso->fetch();
-    $this->pseudo = $t_perso['nom']; 
-    $this->vie = $t_perso['vie'];
+
 
     $GLOBALS["pdo"] = new PDO ('mysql:host=' . $ipserver . ';dbname=' . $nomBase . '', $loginPrivilege, $passPrivilege);
 
@@ -46,8 +39,8 @@
         public $speudo; // Le nom du personnage
         public $vie; // La vie du personnage 
     
-        public function __construct($speudo){ // Constructeur qui mets en place le speudo et la vie du perso
-            $this->pseudo = $speudo;
+        public function __construct($pseudo){ // Constructeur qui mets en place le speudo et la vie du perso
+            $this->pseudo = $pseudo;
             $this->vie = 100;
             }
 
